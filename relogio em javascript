@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            #relogio,#cont{
+                color:crimson;
+                font-family: fantasy;
+                font-size: 40px;
+                 border: 5px solid #000;
+
+               height: 50px;
+                width: 140px;
+               
+            }
+              </style>
+              <script type="text/javascript">
+                    var cont=new Number();
+                      var cont=11;
+                  function contagem(){
+                     
+                     
+                       if((cont-1)>=0){
+                           cont=cont-1;
+                       } if(cont===0){
+                           cont="fim";
+                          
+                       } else if(cont <10){
+                           cont="0"+cont; 
+                       }
+                          document.getElementById("cont").innerHTML=cont;  
+                           
+                      
+                     setTimeout("contagem()",1000); }
+                  
+                  
+                  
+            function relogio () {
+            var dat=new Date();
+            var hora= dat.getHours();
+            var minutos=dat.getMinutes();
+            var segundos=dat.getSeconds();
+            if(hora<10){
+             hora="0"+hora;  
+            }
+               if(minutos<10){
+                   minutos="0"+minutos;  
+            }
+               if(segundos<10){
+                   segundos="0"+segundos;  
+            }
+            
+    document.getElementById("relogio").innerHTML=hora+":"+minutos+":"+segundos;
+    window.setInterval("relogio()",1000);
+            }
+        </script>
+    </head>
+    <body onload="relogio(),contagem()">
+        <h3>Relogio</h3>
+        <div id="relogio" ></div>
+        <h3>Contagem Regressiva</h3>
+        <div id="cont" ></div>
+        
+    </body>
+</html>
