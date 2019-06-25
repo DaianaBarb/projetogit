@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="Pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <title>Bootstrap4</title>
+  </head>
+  <body>
+       <!-- Menu -->
+      <nav class="navbar navbar-expand-lg navbar-dark " style="background: -webkit-linear-gradient(#FFB6C1, #FF1493, #FFB6C1)">
+          <div class="container ">
+      <a class="navbar-brand h1 mb-0" href"#"> Curso </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+              <span class="navbar-toggler"></span> </button>
+      <div   class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto ">
+              <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Perfil</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link"href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Depoimentos</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+              </li>
+          </ul></div>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a>
+              <div class="dropdown-menu" style="background: -webkit-linear-gradient(#FFB6C1, #FF1493, #FFB6C1)">
+              <a class="dropdown-item" href="#">Facebook</a>
+               <a class="dropdown-item" href="#">Twiter</a> <a class="dropdown-item" href="#">Instgran</a>
+              </div>
+          </li>
+          </ul>
+              <form class="form-inline">
+                  <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar..">
+                  <button class="btn btn-dark" tupe="submit">OK</button>
+              </form>
+          </div>
+      </nav>
+      
+       <!-- carrocel de imagens -->
+      
+      
+      
+      <div id="carouselSite" class="carousel slide" data-ride="carousel">
+          
+          <ol class="carousel-indicators">
+              <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselSite" data-slide-to="1"></li>
+              <li data-target="#carouselSite" data-slide-to="2"></li>
+              
+          </ol>
+          
+          
+          <div class="carousel-inner">
+          
+              <div class="carousel-item ">
+              <img src="imgs/foto1.jpg" class="img-fluid d-block">
+              <div class="carousel-caption d-none d-md-block text-dark"  > 
+                  <h1>Margaridas</h1>
+                  <p class="lead"> Conhecida pelos nomes populares de bem-me-quer, bonina, margarida, margarita, margarita-maior, malmequer, malmequer-maior, malmequer-bravo ou olho-de-boi, a margarida é da mesma família   </p>
+                  </div>
+              </div>
+            <div class="carousel-item">
+              <img src="imgs/foto2.jpg" class="img-fluid d-block">
+              <div class="carousel-caption  d-none d-md-block text-dark"  > 
+                  <h1 >Cores</h1>
+                  <p class="lead"> A cor é uma percepção visual provocada pela ação de um feixe de fótons sobre células especializadas da retina, que transmitem, através de informação pré-processada ao nervo óptico, impressões para o sistema nervoso  </p>
+                  
+                  </div>
+              </div>
+                <div class="carousel-item active">
+              <img src="imgs/foto3.jpg" class="img-fluid d-block">
+              <div class="carousel-caption d-none d-md-block text-dark"  > 
+                  <h1>Rosas cor de rosa</h1>
+                  <p class="lead">Rosas são flores extremamente populares em todo mundo e têm amplas definições dependendo da sua cor.As rosas cor de rosa são atribuídos significados como amor, delicadeza, elegância e carinho, por isso, são indicadas para expressar admiração, simpatia, agradecimento e amor poético. Ideais para presentear preferencialmente as mulheres em datas comemorativas, como aniversário, presente para namorada, aniversário de namoro, dias das mães, aniversário 15 anos e outros.  </p>
+                  
+                  </div>
+              </div>
+          
+          </div>
+          <a class="carousel-control-prev" href="#carouselSite" role="button" data-Slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class=sr-only>Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselSite" role="button" data-Slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class=sr-only>Avançar</span>
+          </a>
+                 
+      </div>
+       <!-- container para um texto de bem vindo com fotos e suas descriçoes -->
+      
+          <div class="container">
+          <div class="row">  
+              <div class="col-12 text-center mt-3"> 
+              <h1 class="display-3"> Bem-Vindo</h1>
+                  <p>Sempre que pensamos em flores, é comum nos lembrarmos delas em sua forma alegre e colorida; contudo, esta característica é apresentada apenas por algumas variedades. Existem flores que permanecem pequenas e esverdeadas, como, por exemplo, as flores de gama. </p>
+              </div>
+              </div>
+              <div class="row mb-5 ">
+                  <div class="col-3 mt-4">
+                  
+                      <nav id="Vertical" class="navbar navbar-light bg-light">
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link" href="#item1"> Margaridas</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ml-3" href="#item1-1">Brancas</a>  
+                                     <a class="nav-link ml-3" href="#item1-2">Amarelas</a>
+                                </nav>
+                              <a class="nav-link my-2" href="#item2">Flores</a>
+                              <a class="nav-link my-2" href="#item3">Rosas</a>
+                                 <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ml-3" href="#item3-1">Vermelhas</a>  
+                                      <a class="nav-link ml-3" href="#item3-2">Brancas</a>
+                                </nav>
+                          </nav>
+                      </nav>
+                  
+                  </div>
+                  <div class="col-9 mt-5">
+                      <div data-spy="scroll" data-target="#Vertical" data-offset="0" class="Site" style="height: 280px">
+                          
+                        <h4 id="item1">Margaridas</h4>
+                          <p>A espécie designada por Chrysanthemum leucanthemum ou Leucanthemum vulgare, designada pelos termos populares, pouco precisos, bem-me-quer, bonina, margarida, margarita, margarita-maior, malmequer, malmequer-maior, malmequer-bravo ou olho-de-boi, é uma planta herbácea e perene, originária da Europa.</p>
+                          <h5 id="item1-1">Brancas</h5>
+                          <p>As pétalas das margaridas são alargadas e delgadas, rodeando botão central que é dourado ou amarelo. As suas folhas são ovais e seus caules compridos e delgados, podendo chegar a um metro de altura. Existem várias classes de margaridas e este nome não é dado para uma só flor, porque há uma grande variedade de "Chrysanthemum".</p>
+                          <h5 id="item1-2">Amarelas</h5>
+                          <p>Antigamente, a margarida era considerada a flor das donzelas, e ainda hoje simboliza a juventude, simplicidade e inocência. É uma flor que combina muito bem com outras, e por isso é comum vê-la juntamente com outras em arranjos florais, transmitindo uma sensação de jovialidade.</p>
+                          <h4 id="item2">Flores</h4>
+                          <p>ma flor hermafrodita é geralmente constituída por quatro conjuntos de folhas modificadas, os verticilos florais. Os verticilos se inserem em um ramos especializado, denominado receptáculo floral. Os quatro verticilos florais são o cálice, constituído pelas sépalas, a corola, constituída pelas pétalas, o androceu, constituído pelos estames, e o gineceu, constituído pelos carpelos.</p>
+                           <h4 id="item3">Rosas</h4>
+                          <p>ntificamente, as rosas pertencem à família Rosaceae, e ao gênero Rosa L., com mais de 100 espécies, e milhares de variedades, híbridos e cultivares. São arbustos ou trepadeiras, providos de acúleos. As folhas são simples, partidas em 5 ou 7 lóbulos de bordos denteados. As flores, na maioria das vezes, são solitárias. Apresentam originalmente 5 pétalas, muitos estames e um ovário ínfero. Os frutos são pequenos, normalmente vermelhos, algumas vezes comestíveis.</p>
+                          <h5 id="item3-1">Vermelhas</h5>
+                          <p>A rosa (do latim rosa) é uma das flores mais populares no mundo. Vem sendo cultivada pelo homem desde a Antiguidade. A primeira rosa cresceu nos jardins asiáticos há 5 000 anos. Na sua forma selvagem, a flor é ainda mais antiga. Celebrada ao longo dos séculos, a rosa, símbolo dos apaixonados, também marcou presença em eventos históricos importantes e decisivos. Fósseis dessas rosas datam de há 35 milhões de anos.</p>
+                          <h5 id="item3-2">Brancas</h5>
+                          <p>Seguida da vermelha, essa é uma das flores mais populares que existem. O que chama a atenção não é apenas o delicado formato ou a cor pura, mas também as lendas e o significado da rosa branca.Um dos mitos é de que essa foi a primeira rosa a aparecer na terra e que teria ganhando novas cores em razão de alguns acontecimentos. A rosa vermelha, por exemplo, seria uma rosa branca que havia sido manchada com o sangue de Afrodite, por conta de um machucado em espinho.</p>
+                      </div>
+                  </div>
+              </div>
+ 
+              <div class="row mb-5">
+                  <div class="col-sm-4">
+                      <div class="card ">
+                          <img class="card-img-top" src="imgs/flor1.jpg">
+                          <div class="card-body">
+                              <h4 class="card-title"> Acreditar</h4>
+                              <h6 class="card-subtitle mb-2 text-muted"> Aquilo que e um sonho </h6>
+                           <p class="card-text">Eu cultivo rosas e rimas, achando que é muito bom... </p>
+                          </div>
+                           <ul class="list-group-flush">
+                              <li class="list-group-item"> Ter um sonho </li>
+                              <li class="list-group-item"> Não desistir </li>
+                              <li class="list-group-item"> Confiança </li>
+                          </ul>
+                          <div>
+                              <a class="card-link" href="#">Link1</a>
+                              <a class="card-link" href="#">Link2</a>
+                          </div>
+                           <div class="card-footer text-muted"> Rodapé
+                          </div>
+                         
+                        </div>
+                  </div> 
+                  <div class="col-sm-4">
+                      <div class="card">
+                          <img class="card-img-top" src="imgs/flor2.jpg">
+                          <div class="card-body">
+                               <h4 class="card-title "> Sonho </h4>
+                              <h6 class="card-subtitle mb-2 text-muted"> Aquilo que vem da mente </h6>
+                          <p class="card-text">Para as rosas, escreveu alguém, o jardineiro é eterno.</p>
+                          </div>
+                          <ul class="list-group-flush">
+                              <li class="list-group-item"> Realizar </li>
+                              <li class="list-group-item"> Lutar </li>
+                              <li class="list-group-item"> Construir </li>
+                          </ul>
+                          <div>
+                              <a class="card-link" href="#">Link1</a>
+                              <a class="card-link" href="#">Link2</a>
+                         <div class="card-footer text-muted"> Rodapé
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                  <div class="col-sm-4">
+                      <div class="card">
+                          <img class="card-img-top" src="imgs/flor3.jpg">
+                          <div class="card-body">
+                              <h4 class="card-title "> Força </h4>
+                              <h6 class="card-subtitle mb-2 text-muted"> Aquilo que vem da alma </h6>
+                          <p class="card-text">É acreditando nas rosas que as fazemos desabrochar.</p>
+                               </div>
+                          <ul class="list-group-flush">
+                              <li class="list-group-item"> Não desistir </li>
+                              <li class="list-group-item"> Tentar outra vez </li>
+                              <li class="list-group-item"> perceverar</li>
+                          </ul>
+                          <div>
+                              <a class="card-link" href="#">Link1</a>
+                              <a class="card-link" href="#" data-toggle="modal" data-target="#sitemodal">Link2</a>
+                          </div>
+                          <div class="card-footer text-muted"> Rodapé
+                          </div>
+                   </div>
+             </div>
+             </div>
+      </div>
+       <!-- modal -->
+      <div class="modal fade" id="sitemodal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Modal</h5>
+              <button type="button" class="close" data-dismiss="modal"> 
+              <span>&times;</span></button>
+          </div>
+           <div class="modal-body">
+              <div class="container-fluid">
+               <div class="row">
+                  <div class="col-5">
+                   <h5> Raridade das flores</h5>
+                      <p>Em  2010, o Museu Paraense Emílio Goeld, lançou a obra Flores da Amazônia para você Colorir/ECOLOGIA,  de Paulo Bezerra Cavalcante e Ilustrações de  Antonio Carlos S. Martins. Segundo seus autores, a obra é o “(....) sexto álbum para colorir da Série Infantil do Museu Goeldi tendo como tema as FLORES DA AMAZÔNIA.  Apesar do título - Flores da Amazônia – aparecem algumas flores que não são originárias dessa região, pois a Floresta Amazônica não é das mais ricas e talvez seja a menos rica em plantas de flores vistosas e ornamentais. Esse tipo de flores, comuns em nossos jardins, em sua grande maioria é de procedência estrangeira,aqui </p>
+                 </div>
+                   <div class="col-5">
+                        <h5> Raridade das flores</h5>
+                      <p>introduzidas há séculos, e hoje tão bem aclimatizadas, a ponto de serem consideradas por muitas pessoas como plantas naturais da região. Existem, na verdade, algumas flores amazônicas de rara beleza, como são certas orquídeas e outras flores silvestres em áreas campestres, muito pouco aproveitadas em nossos jardins.” </p>
+                       <img src="imgs/flor2.jpg" class="img-fluid d-block">
+                   </div>
+                  
+                  
+                  </div>
+               
+               </div>
+              </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal"> 
+              fechar</button>
+          </div>
+          </div>
+      
+    </div>
+      </div>
+                  
+          
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
+
